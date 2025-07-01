@@ -1,10 +1,10 @@
 variable "region" {
     description = "region where infra should be deployed"
-    default     = "ap-south-1"  
+    default     = "*********"  
 }
 variable "ami_id" {
   description = "Ubuntu 24.04 AMI for ap-south-1"
-  default     = "ami-0f918f7e67a3323f0"
+  default     = "******"
 }
 
 variable "instance_type" {
@@ -14,7 +14,7 @@ variable "instance_type" {
 
 variable "key_name" {
   description = "EC2 key pair name"
-  default     = "mb-lap-key"
+  default     = "********"
 }
 
 variable "name_tag" {
